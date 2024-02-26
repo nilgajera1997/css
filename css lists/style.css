@@ -1,0 +1,75 @@
+/* unorder list */
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li a:hover {
+    color: blueviolet;
+    transition: 0.3s;
+}
+
+/* different list style */
+.a1{
+    list-style: armenian;
+}
+.a2{
+    list-style: circle;
+}
+.a3{
+    list-style: decimal;
+}
+.a4{
+    list-style: decimal-leading-zero;
+}
+.a5{
+    list-style: disc;
+}
+.a6{
+    list-style: georgian;
+}
+.a7{
+    list-style: inside;
+}
+.a8{
+    list-style: lower-alpha;
+}
+.a9{
+    list-style: lower-greek;
+}
+.a10{
+    list-style: lower-latin;
+}
+.a11{
+    list-style: lower-roman;
+}
+.a12{
+    list-style: none;
+}
+.a13{
+    list-style: outside;
+}
+.a14{
+    list-style: square;
+}
+.a15{
+    list-style: symbols(>);
+}
+.a16{
+    list-style: upper-alpha;
+}
+.a17{
+    list-style: lower-roman;
+}
+
