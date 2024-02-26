@@ -1,0 +1,91 @@
+/* css background property  */
+
+p{
+    background-color: green;
+    color: #fff;
+    text-align: center;
+}
+h1{
+    background-color: brown;
+    color: #fff;
+}
+h3{
+    background-color: aqua;
+}
+
+/* css background opacity/transparency property  */
+
+h5{
+    background-color: yellow;
+    opacity: 0.5;
+    color: red;
+}
+h2{
+    background-color: yellow;
+    opacity: 0.8;
+    color: red;
+}h4{
+    background-color: yellow;
+    opacity: 1;
+    color: red;
+}
+h6{
+    background-color: yellow;
+    opacity: 0.3;
+    color: red;
+}
+
+
+/* backgorund  property  in if image is small so background image is by default repeat*/
+/* .header{
+    width: 100%;
+    height: 200px;
+    background: url("images/pexels-ricardo-oliveira-18592820\ \(1\).jpg");
+    color: #fff;
+    margin-bottom: 40px;
+    background-repeat: no-repeat;
+} */
+
+/* backgorund  property  no-repeat property*/
+.section{
+    width: 500px;
+    height: 1200px;
+    background: url("images/pexels-ricardo-oliveira-18592820\ \(1\).jpg");
+    color: #fff;
+    border: 2px dotted red;
+    padding: 20px;
+
+
+    /* - background-image is no repeat  */
+    background-repeat: no-repeat; 
+    /* background-repeat: repeat-x; - background-image is repeat horizontaly*/
+    /* background-repeat: repeat-y; - background-image is repeat vertically*/
+
+
+     /* - background-image position  - you can any direction to move to image like right top left bottom center*/
+     /* background-position: top;  */
+    
+     /* - background-image attachment  */
+
+     /* background-attachment: fixed;  -when you scroll the mouse then your image no scroll */
+     /* background-attachment: scroll; -when you scroll the mouse then your image is scroll */
+     /* background-attachment: local; -by defalut */
+     /* background-attachment: inherit; -by defalut */ 
+
+     /* background-clip */
+
+     background-clip: border-box;
+     /* background-clip: padding-box; */
+     background-clip: content-box;
+   
+
+     /* backgorund- origin */
+     background-origin: content-box padding-box; 
+
+}
+
+
+
+
+
+
