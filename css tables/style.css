@@ -1,0 +1,25 @@
+body{
+    width:1900px;
+    height: 900px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table,tr,th,td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+th:hover{
+    background-color:orange;
+    transition: 0.5s;
+}
+td:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
