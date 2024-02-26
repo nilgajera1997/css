@@ -1,0 +1,16 @@
+.box-1{
+    width: 900px;
+    height:auto;
+    background-color: green;
+    color: white;
+    margin: 30px 20px;
+    padding: 40px 30px;
+}
+.box-2{
+    width: 900px;
+    height:auto;
+    background-color: red;
+    color: white;
+    padding: 80px 60px;
+    margin: 120px 80px;
+}
