@@ -1,0 +1,51 @@
+/* this is css element selectors */
+h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(73, 46, 173);
+}
+p{
+    font-size: 20px;
+    font-weight: 600;
+    color: gray
+}
+a{
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+    text-decoration: none;
+
+}
+
+/* this is css id selectors */
+
+#submit{
+    border: none; 
+    background-color: purple;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+/* this is css class selectors */
+
+.header{
+    background-color: blueviolet
+}
+
+
+/* this is css universal selectors */
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+/* this is css group selectors */
+
+h5,h6,a{
+    color: chocolate;
+    font-size: 48px;
+}
