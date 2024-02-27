@@ -1,0 +1,73 @@
+/* css text property*/
+
+h1{
+    width: 100%;
+    color: #fff;
+    background-color: green;
+    text-align: center;
+    text-decoration-line: line-through;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    line-height: 40px;
+    text-indent: 30%;
+    /* white-space: nowrap; */
+    word-spacing: normal;
+}
+h2{
+    color: #fff;
+    background-color: black;
+    text-align: left;
+    text-decoration-line: none;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    line-height:20px;
+    text-indent: 120px;
+    /* white-space: wrap; */
+    word-spacing: 25px;
+}
+h3{
+    color: #fff;
+    background-color: purple;
+    text-align: right;
+    text-decoration-line: overline;
+    text-transform: none;
+    /* letter-spacing: -2px; */
+    line-height: 30px;
+    text-indent: 80px;
+    white-space: normal;
+    word-spacing: 1rem;
+}
+h4{
+    color: #fff;
+    background-color: orange;
+    text-align: justify;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    line-height: 60px;
+    text-indent: 200px;
+    /* white-space: pre; */
+    word-spacing: 1cm;
+}
+
+/* text-shadow property 
+
+- first=right-left position 
+    second=top-bottom position
+    third= blur option
+    fourth=color
+    
+*/
+
+.div1{
+    font-size: 50px;
+    text-shadow: 2px 2px 5px red;
+}
+.div2{
+    font-size: 50px;
+    text-shadow: 5px 8px 20px green;
+}
+.div3{
+    font-size: 50px;
+    text-shadow: 10px 5px 10px red;
+}
