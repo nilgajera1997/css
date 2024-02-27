@@ -1,0 +1,72 @@
+/* css display block */
+
+.first{
+    margin-bottom: 50px;
+}
+.second{
+    margin-bottom: 50px;
+}
+.third{
+    margin-bottom: 50px;
+}
+.fourth{
+    margin-bottom: 50px;
+}
+
+.first ul{
+    margin: 0;
+    padding: 0;
+}
+.first li{
+    display: block;
+    list-style: none;
+    margin: 0 50px;
+    background-color: green;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+/* css display inline */
+.second ul{
+    margin: 0;
+    padding: 0;
+}
+.second li{
+    display: inline ;
+    list-style: none;
+    margin: 0 50px;
+    background-color: green;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+/* css display inline-block */
+.third ul{
+    margin: 0;
+    padding: 0;
+}
+.third li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 50px;
+    background-color: green;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+/* css display flex */
+.fourth ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.fourth li{
+   
+    list-style: none;
+    margin: 0 50px;
+    background-color: green;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
