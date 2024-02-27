@@ -1,0 +1,83 @@
+
+/* css link different varient to hover */
+.main-btn-group{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn1{
+    color: green;
+    text-decoration: none;
+    margin: 0 30px;
+}
+.btn1:hover{
+    text-decoration: underline;
+}
+
+.btn2{
+    color: green;
+    text-decoration: none;
+    margin: 0 30px;
+}
+.btn2:hover{
+    color: red;
+    transition: 0.3s;
+}
+
+.btn3{
+    color: #0077ff;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 30px;
+    border: 2px solid #0077ff;
+
+}
+.btn3:hover{
+    color:#fff;
+    transition: 0.3s;
+    border: 2px solid transparent;
+    background-color: #000;
+}
+
+.btn4{
+    color:#fff;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 30px;
+    background-color: #0077ff;
+
+}
+.btn4:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+    
+}
+
+
+
+/* css link when react on hover,visted,and active */
+
+.btn5{
+    text-decoration: none;
+
+}
+.btn5:active{
+    color: pink;
+}
+
+.btn6{
+    margin: 0 20px;
+}
+.btn6:visited{
+    color: peru;
+}
+
+
