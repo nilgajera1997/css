@@ -1,0 +1,35 @@
+/* horizontal navigation bar */
+.horizontal-navigation ul  {
+    list-style: none;
+}
+
+.horizontal-navigation li{
+    display: inline-block;
+    background-color: aliceblue;
+    width: 60px;
+    padding: 0 20px;
+}
+.horizontal-navigation li:hover{
+    background-color: blue;
+    color: white;
+    transition: 0.3s;
+}
+
+/* vertical navigation bar */
+.vertical-navigation ul  {
+    list-style: none;
+}
+
+.vertical-navigation li a{
+    display: block;
+    background-color: aliceblue;
+    width: 60px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+.vertical-navigation li a:hover{
+    background-color: blue;
+    color: white;
+    transition: 0.3s;
+}

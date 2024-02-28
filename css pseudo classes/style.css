@@ -59,7 +59,13 @@ p:first-child{
     background-color: yellow;
     color: black;
   } */
-  li:nth-last-of-type(2n){
+  /* li:nth-last-of-type(2n){
     background-color: yellow;
     color: black;
+  } */
+
+
+  li::selection{
+    
+    background-color: orange;
   }
