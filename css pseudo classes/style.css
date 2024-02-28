@@ -1,0 +1,65 @@
+/* css anchor pseudo class */
+
+.a1:hover{
+    color: yellowgreen;
+}
+.a2:visited{
+    color: red;
+}
+.a3:active{
+    color: orange;
+}
+.a4:link{
+    color: yellow;
+}
+
+/* Pseudo-classes and HTML Classes */
+
+.box-1 h1:hover{
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    transition: 0.5s;
+}
+
+div:hover{
+    background-color: purple;
+    color: white;
+    padding: 5px;
+}
+
+p:first-child{
+    color: white;
+    background-color: red;
+
+}
+/* element display state pseudo class -:fullscreen,modal,picture-in-picture  */
+
+.element {
+    background-color: lightyellow;
+  }
+  
+  .element:fullscreen {
+    background-color: lightpink;
+  }
+  
+  /* nth-child css practice */
+
+  /* li:nth-child(2n+4){
+    background-color: forestgreen;
+    color: white;
+  } */
+
+  /* li:nth-last-child(2n){
+    background-color: yellow;
+    color: black;
+  } */
+
+  /* li:nth-of-type(2n){
+    background-color: yellow;
+    color: black;
+  } */
+  li:nth-last-of-type(2n){
+    background-color: yellow;
+    color: black;
+  }
