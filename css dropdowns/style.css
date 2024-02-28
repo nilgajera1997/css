@@ -1,0 +1,25 @@
+.dropdown a{
+    display: block;
+    width: 60px;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+.submenu {
+ display: inline-block;
+ background-color: gray;
+ width: 120px;
+ list-style: none;
+ color: white;
+ padding: 10px 15px;
+ border-radius: 8px;
+ opacity: 0;
+}
+
+.dropdown:hover .submenu{
+    opacity: 1;
+    transition: 0.3s;
+}
+
