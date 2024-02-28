@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css combinators</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Descendant Selector -->
+    <div class="box1">
+        <p>this is p tag</p>
+        <p>this is p tag</p>
+        <p>this is p tag</p>
+        <p>this is p tag</p>
+    </div>
+    <p>this is not in div</p>
+    <p>this is not in div</p>
+
+
+    <!-- child Selector -->
+    <div class="box2">
+        <p>this is p tag</p>
+        <p>this is p tag</p>
+        <p>this is p tag</p>
+        <section>
+            <p>this is not in div</p>
+            <p>this is not in div</p>
+        </section>
+        <p>this is p tag</p>
+    </div>
+
+
+    <!-- Adjacent Sibling Selector -->
+    <div class="box-3">
+        <p>this is p1 tag</p>
+        <p>this is p2 tag</p>
+        <p>this is p3 tag</p>
+    </div>
+    <p>this is not in4 div</p>
+    <p>this is not in5 div</p>
+    <div class="box-3">
+        <p>this is p6 tag</p>
+    </div>
+    <p>this is p7 tag</p>
+    <p>this is p8 tag</p>
+
+    <!-- General Sibling Selector  -->
+    <div class="box-4">
+        <p>this is p6 tag</p>
+        <p>this is p7 tag</p>
+        <p>this is p8 tag</p>
+    </div>
+    <p>this is p9 tag</p>
+    <p>this is p10 tag</p>
+    <p>this is p11 tag</p>
+    <p>this is p12 tag</p>
+    <p>this is p13 tag</p>
+    <p>this is p14 tag</p>
+</body>
+
+</html>

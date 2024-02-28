@@ -1,0 +1,25 @@
+/*  Descendant Selector*/
+
+.box1 p{
+    background-color: green;
+    color: white;
+}
+
+/* child selector */
+.box2>p{
+    background-color: purple;
+    color: white;
+}
+
+/* Adjacent Sibling selector */
+
+.box-3+p{
+    background-color: red;
+    color: #fff;
+}
+
+/* General Sibling Selector  */
+.box-4~p{
+    background-color: chocolate;
+    color: black;
+}
