@@ -1,0 +1,51 @@
+
+/* attribute selectors */
+/* a[target]{
+    background-color: green;
+    text-decoration: none;
+    color:white;
+    padding: 10px 30px;
+    font-size: 20px ;
+    font-weight: 700;
+    border-radius: 8px;
+}
+a[target]:hover{
+    background-color: brown;
+    transition: 0.3s;
+} */
+
+/* attribute="value selector */
+
+a[target="_blank"]{
+    background-color: yellowgreen;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* [attribute~="value"] */
+[title~="hand"]{
+    border: 5px solid purple;
+}
+
+/* [attribute|="value ]}*/
+/* [class|="header"]{
+    background-color: aqua;
+    color: black;
+} */
+
+/* [attribute^="value"] */
+
+[class^="header"]{
+    background-color: blue;
+    color: white;
+}
+/* [attribute$="value"] */
+/* [class$=div]{
+    background-color: orange;
+    color: white;
+} */
+[class*="d"]{
+    background-color: skyblue;
+    color: darkblue;
+}
