@@ -26,3 +26,11 @@
     height: 300px;
     
 }
+
+.box{
+   width: 200px;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 200px;
+    margin: auto;
+}

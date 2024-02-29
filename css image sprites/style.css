@@ -1,0 +1,46 @@
+.navlist li{
+    display: inline-block;
+    list-style:none;
+}
+img{
+    width: 44px;
+    height: 48px;
+}
+
+.home{
+    position: relative;
+}
+
+.home1{
+    position: absolute;
+    left: 0;
+}
+.home1:hover{
+    opacity: 0;
+    transition: 0.3s;
+}
+.left{
+    position: relative;
+}
+
+.left1{
+    position: absolute;
+    left: 0;
+}
+.left1:hover{
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.right{
+    position: relative;
+}
+
+.right1{
+    position: absolute;
+    left: 0;
+}
+.right1:hover{
+    opacity: 0;
+    transition: 0.3s;
+}

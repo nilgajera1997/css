@@ -1,71 +1,108 @@
-/* css anchor pseudo class */
+/* css  pseudo class */
 
-.a1:hover{
-    color: yellowgreen;
+/* active seudo class */
+a:active{
+  background-color: red;
+  color: white;
 }
-.a2:visited{
-    color: red;
-}
-.a3:active{
-    color: orange;
-}
-.a4:link{
-    color: yellow;
-}
-
-/* Pseudo-classes and HTML Classes */
-
-.box-1 h1:hover{
-    font-size: 20px;
-    color: white;
-    background-color: red;
-    transition: 0.5s;
+/* checked seudo class */
+input:checked{
+ width: 30px;
+ height: 30px;
+ margin-bottom: 20px;
 }
 
-div:hover{
-    background-color: purple;
-    color: white;
-    padding: 5px;
+/* disabled / enabled seudo class */
+input[type="text"]:disabled{
+  color: black;
+  background-color: #c9c9c9;
+}
+/* input[type="text"]:enabled{
+  color: white;
+  background-color: darkgreen;
+} */
+
+/* empty seudo class */
+p:empty{
+  width: 100px;
+  height: 20px;
+  background-color: blue;
 }
 
-p:first-child{
-    color: white;
-    background-color: red;
+/* first child */
 
+/* div p:first-child{
+  color: white;
+  background-color: red;
 }
-/* element display state pseudo class -:fullscreen,modal,picture-in-picture  */
-
-.element {
-    background-color: lightyellow;
-  }
-  
-  .element:fullscreen {
-    background-color: lightpink;
-  }
-  
-  /* nth-child css practice */
-
-  /* li:nth-child(2n+4){
-    background-color: forestgreen;
-    color: white;
-  } */
-
-  /* li:nth-last-child(2n){
-    background-color: yellow;
-    color: black;
-  } */
-
-  /* li:nth-of-type(2n){
-    background-color: yellow;
-    color: black;
-  } */
-  /* li:nth-last-of-type(2n){
-    background-color: yellow;
-    color: black;
-  } */
+ div span:first-child{
+  color: white;
+  background-color: purple;
+} */
 
 
-  li::selection{
-    
-    background-color: orange;
-  }
+/* first of type */
+
+/* div p:first-of-type{
+  background-color: orange;
+} */
+/* div  span:first-of-type{
+  background-color: purple;
+  color:white
+} */
+
+/* focus  */
+
+input:focus{
+  background-color: deepskyblue;
+  color: white;
+  outline-color: gray;
+}
+
+/* in-range */
+input:in-range{
+  border: 1px solid green;
+}input:out-of-range{
+  border: 1px solid red;
+}
+
+/* invalid / valid*/
+input:invalid{
+  outline-width: 2px;
+  outline-color: red;
+  background-color: white;
+  color: black;
+}
+input:valid{
+  outline-width: 2px;
+  outline-color: green;
+  background-color: white;
+  color: black;
+}
+
+/* last child */
+
+/* div h1:last-child{
+  color: white;
+  background-color: cadetblue;
+}
+div span:last-child{
+  background-color: green;
+  color: white;
+} */
+
+/* Last of type */
+
+/* div span:last-of-type{
+  background-color: palevioletred;
+  color:black;
+} */
+
+h1:not(:last-child){
+  background-color: yellow;
+  color: #000;
+}
+div p{
+ color: white;
+  background-color: black;
+}
