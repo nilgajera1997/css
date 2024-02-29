@@ -1,0 +1,15 @@
+h1{
+    font-size: 16px;
+}
+p{
+    font-size: 3rem;
+}
+
+div{
+    font-size: 30px;
+    border: 1px solid pink;
+
+}
+span{
+    font-size: 1em;
+}
