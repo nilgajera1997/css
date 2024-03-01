@@ -1,0 +1,26 @@
+.linear{
+    height: 120px;
+    /* background-image: linear-gradient(#003B73,#60A3D9); */
+    /* background-image: linear-gradient(-90deg,#003B73 15%,#60A3D9); degree */
+    background-image: linear-gradient(to top,#003B73 15%,#60A3D9); 
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    font-size:40px;
+}
+.radial{
+    height: 500px;
+    background-image: radial-gradient(circle,#17B794,#28518A,#dd0a97,#7c0886);
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    font-size:40px;
+}
+.conic{
+    height: 500px;
+    background-image: conic-gradient(red ,green ,blue,yellow,orange,purple,skyblue,darkgreen,greenyellow);
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    font-size:40px;
+}
