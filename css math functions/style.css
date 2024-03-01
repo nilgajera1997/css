@@ -1,0 +1,60 @@
+.main1{
+    position: absolute;
+    left: 50px;
+    width:calc(100% - 1000px);
+    border: 1px solid red;
+    background-color: yellowgreen;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.main2{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    width:calc(100% + 0);
+    border: 1px solid blue;
+    background-color: yellowgreen;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.main3{
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    width:calc(100% * 10px);
+    border: 1px solid orange;
+    background-color: yellowgreen;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.main4{
+    position: absolute;
+    left: 50px;
+    top: 300px;
+    width:calc(100% / 10);
+    border: 1px solid pink;
+    background-color: yellowgreen;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* max() function */
+.main5{
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    background-color: orange;
+    padding: 10px;
+    height: 100px;
+    width: max(50%,1200px);
+}
+/* min() function */
+.main6{
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    background-color: pink;
+    padding: 10px;
+    height: 100px;
+    width: min(50%,600px);
+}
