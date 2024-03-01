@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    justify-content:center ;
+}
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    margin: 0 10px;
+}
+.div1:hover{
+    transition: 3s;
+    transform: rotateX(180deg);
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    margin: 0 10px;
+}
+.div2:hover{
+    transition: 3s;
+    transform: rotateY(180deg);
+}
+
+.div3{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    margin: 0 10px;
+}
+.div3:hover{
+    transition: 3s;
+    transform: rotateZ(180deg);
+}
