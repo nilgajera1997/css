@@ -1,0 +1,37 @@
+.p1{
+    width: 200px;
+    border: 1px solid black;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+.p1:hover{
+    overflow: visible;
+    transition: 3s;
+}
+.p2{
+    text-overflow: ellipsis;
+    width: 200px;
+    border: 1px solid black;
+    overflow: hidden;
+    white-space: nowrap;
+    writing-mode:vertical-rl
+}
+.p2:hover{
+    overflow: visible;
+    transition: 3s;
+}
+.p3{
+    word-wrap: break-word;
+    width: 16em;
+    border: 1px solid black;
+    word-break: keep-all;
+    writing-mode: horizontal-tb;
+}
+.p4{
+    word-wrap: break-word;
+    width: 16em;
+    border: 1px solid black;
+    word-break: break-all;
+    writing-mode:vertical-lr
+}
