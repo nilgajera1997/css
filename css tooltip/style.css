@@ -1,0 +1,15 @@
+.tooltip{
+    display: block;
+}
+.tooltip-text{
+    width: 60px ;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    visibility: hidden;
+}
+
+.tooltip:hover .tooltip-text{
+    visibility: visible;
+}
