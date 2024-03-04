@@ -47,6 +47,8 @@
     margin: 0 10px;
     text-align: center;
     line-height:100px;
+    transition-timing-function: linear;
+    transition-duration: 2s;
 }
 .div4:hover{
     width: 300px;
