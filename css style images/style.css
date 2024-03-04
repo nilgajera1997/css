@@ -1,0 +1,430 @@
+/* rounded-image */
+.rounded-image{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+img{
+    width: 160px;
+}
+.image-section{
+    margin: 0 15px;
+}
+.image-section{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* thumbnail-image */
+.thumbnail-section{
+    display: flex;
+    margin-bottom: 30px;
+
+}
+.section{
+    margin: 0 30px;
+    border: 2px solid purple;
+    padding:5px;
+    border-radius: 4px;
+}
+.right-section{
+    margin: 0 30px;
+    border: 2px solid purple;
+    padding:5px;
+    border-radius: 4px;
+}
+
+/* responsive-image */
+.responsive-images{
+    margin-bottom: 30px;
+}
+.responsive-images img{
+    max-width: 300px;
+    height: auto;
+   
+}
+/* center-image */
+
+.center-image{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+/* card images */
+
+.card-section{
+    display: flex;
+    justify-content: center;
+    padding: 0 120px;
+}
+.card{
+    width:400px;
+    height: 500px;
+    border: 1px solid red;
+    margin: 0 30px;
+    padding: 10px;
+}
+.card img{
+    width: 400px;
+    height: 400px;
+}
+.card-content{
+    text-align: center;
+    line-height: 100px;
+}
+.transparent-img img{
+    opacity: 0.8;
+}
+
+
+/* text-on-image */
+
+.text-image-section{
+    width: 480px;
+    position: relative;
+}
+
+.image-text1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 20px;
+}
+.image-text2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    font-size: 20px;
+}
+.image-text3{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-size: 20px;
+}
+.image-text4{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 20px;
+}
+.image-text5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 20px;
+}
+/* css filter image */
+
+.filter-image-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.img1{
+    filter: blur(2px);
+}
+.img2{
+    filter: brightness(250%);
+}
+.img3{
+    filter: contrast(150%);
+}
+.img4{
+    filter: drop-shadow(5px 5px 5px purple);
+}
+.img5{
+    filter: grayscale(100%);
+}
+.img6{
+    filter:hue-rotate( 180deg);
+}
+.img7{
+    filter: invert(250%);
+}
+.img8{
+    filter: opacity(0.1);
+}
+.img9{
+    filter: saturate(300%);
+}
+.img10{
+    filter: sepia(100%);
+}
+
+/* image-overlay content */
+.image-overlay{
+    display: flex;
+    margin-bottom: 50px;
+}
+.main-section{
+    
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin: 0 15px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 160px;
+    color: white;
+    background-color: purple;
+    width: 160px;
+    height: 160px;
+    opacity: 0;
+    transition: 0.7s;
+}
+.overlay:hover{
+    opacity: 1;
+}
+
+
+/* fade in a box */
+
+.main-section2{
+    
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin: 0 15px;
+}
+.overlay2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 160px;
+    color: white;
+    background-color: purple;
+    width: 160px;
+    height: 160px;
+    transition: 0.7s;
+    z-index: 0;
+    opacity: 0;
+    
+}
+.main-section2:hover .overlay2{
+    opacity: 0.5;
+}
+
+.main-section2:hover .button2{
+    opacity: 1;
+}
+
+.button2{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color:purple;
+    text-align: center;
+    line-height: 50px;
+    padding: 5px;
+    border-radius: 3px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+/* slide in to top */
+
+.main-section3{
+    
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin: 0 15px;
+}
+.overlay3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    line-height: 160px;
+    color: white;
+    background-color: purple;
+    width: 160px;
+    height: 0;
+    transition: 0.7s;
+    z-index: 0;
+  
+    
+}
+.main-section3:hover .overlay3{
+    height: 160px;
+}
+
+.main-section3:hover .button3{
+    opacity: 1;
+}
+
+.button3{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 50px;
+    height: 50px;
+    color:white;
+    text-align: center;
+    line-height: 50px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+
+/* slide in to botom */
+
+.main-section4{
+    
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin: 0 15px;
+}
+.overlay4{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    line-height: 160px;
+    color: white;
+    background-color: purple;
+    width: 160px;
+    height: 0;
+    transition: 0.7s;
+    z-index: 0;
+  
+    
+}
+.main-section4:hover .overlay4{
+    height: 160px;
+}
+
+.main-section4:hover .button4{
+    opacity: 1;
+}
+
+.button4{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 50px;
+    height: 50px;
+    color:white;
+    text-align: center;
+    line-height: 50px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+/* slide in to left */
+
+.main-section5{
+    
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin: 0 15px;
+}
+.overlay5{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    line-height: 160px;
+    color: white;
+    background-color: purple;
+    width: 0;
+    height: 160px;
+    transition: 0.7s;
+    z-index: 0;
+  
+    
+}
+.main-section5:hover .overlay5{
+    width: 160px;
+}
+
+.main-section5:hover .button5{
+    opacity: 1;
+}
+
+.button5{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 50px;
+    height: 50px;
+    color:white;
+    text-align: center;
+    line-height: 50px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+/* slide in to right */
+
+.main-section6{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin: 0 15px;
+}
+.overlay6{
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    text-align: center;
+    line-height: 160px;
+    color: white;
+    background-color: purple;
+    width: 0;
+    height: 160px;
+    transition: 0.7s;
+    z-index: 0;
+  
+    
+}
+.main-section6:hover .overlay6{
+    width: 160px;
+    left: 0;
+}
+
+.main-section6:hover .button6{
+    opacity: 1;
+}
+
+.button6{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 50px;
+    height: 50px;
+    color:white;
+    text-align: center;
+    line-height: 50px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.flip:hover{
+    transition: 0.7s;
+    transform: scaleX(-1);
+}
